@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": { "node": "12.x" },
   "scripts": {
     "test": "jest",
     "start": "node index.js"
@@ -17,3 +18,4 @@
     "jest": "^24.9.0"
   }
 }
+
