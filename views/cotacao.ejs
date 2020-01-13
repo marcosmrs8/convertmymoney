@@ -3,9 +3,26 @@
     <% if (error) { %>
         <%= error %>
     <% } else { %>
-        <%= quantidade %> dólares
-        na cotação <%= cotacao %> 
-        é igual a <%= conversao %> reais
+        <table class="pure-table">
+            <thead>
+                <tr>
+                    
+                    <th>Cotação hoje</th>
+                    <th>Quantidade</th>
+                    <th>Valor total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    
+                    <td><%= cotacao %> </td>
+                    <td><%= quantidade %></td>
+                    <td><%= conversao %></td>
+                </tr>
+            </tbody>    
+        </table>
     <% } %>
 </div>
 <%- include('footer') %>
+         
