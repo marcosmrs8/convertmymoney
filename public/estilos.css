@@ -1,22 +1,33 @@
-body{
+body {
     text-align: center;
-    background-position: center;
-    background-image: url("money2.gif");
+    background-image:
+
+        url("nuvem.gif"),
+        url("dinheiro.jfif");
+    background-position:
+        18% 25%,
+        center;
     background-color: #cccccc;
-   
-    background-size: cover; 
-    background-repeat: repeat;    
-   
-    height: 100vh; 
-    padding:0;
-    margin:0;
-    
+    background-size:
+        400px 300px,
+        100%;
+    background-repeat:
+        no-repeat,
+        repeat-x;
+
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
 }
-h1 img{
+
+h1 img {
     width: 489px;
     margin: 20px;
 }
-input{
+
+input {
     border: 1px solid#000000;
     background: #fdfdfd;
     font-size: 20px;
@@ -24,8 +35,10 @@ input{
     margin: 4px;
 
 }
-button{
-    background-color: #4CAF50; /* Green */
+
+button {
+    background-color: #4CAF50;
+    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -35,21 +48,22 @@ button{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
     transition-duration: 0.4s;
     /* border: 1px solid #000000;
     background: #d8d8dd;
     font-size: 20px;
     padding: 10px; */
-    
+
 }
 
-button:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.result{
-    
+.result {
+
     padding: 10px;
     border: 1px solid #d8d8d8;
     background: #fdfdfd;
@@ -63,13 +77,14 @@ button:hover{
     background-color: green;
     font-size: 20px;
     text-decoration-color: cornsilk;
-    border-radius: 12px;      
+    border-radius: 12px;
     border: 2px solid #4CAF50;
     padding: 4px;
 
 }
+
 #button1:hover {
-    background-color: black; 
+    background-color: black;
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
