@@ -3,10 +3,9 @@
     <% if (error) { %>
         <%= error %>
     <% } else { %>
-        <table class="pure-table">
+        <table id="customers" >
             <thead>
                 <tr>
-                    
                     <th>Cotação hoje</th>
                     <th>Quantidade</th>
                     <th>Valor total</th>
@@ -15,7 +14,6 @@
 
             <tbody>
                 <tr>
-                    
                     <td><%= cotacao %> </td>
                     <td><%= quantidade %></td>
                     <td><%= conversao %></td>

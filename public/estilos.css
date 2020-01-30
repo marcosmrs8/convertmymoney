@@ -7,7 +7,6 @@ body {
     background-position:
         18% 25%,
         center;
-    background-color: #cccccc;
     background-size:
         400px 300px,
         100%;
@@ -21,6 +20,8 @@ body {
     margin: 0;
 
 }
+
+
 
 h1 img {
     width: 489px;
@@ -62,17 +63,6 @@ button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.result {
-
-    padding: 10px;
-    border: 1px solid #d8d8d8;
-    background: #fdfdfd;
-    justify-content: center;
-    display: flex;
-
-
-}
-
 #button1 {
     background-color: green;
     font-size: 20px;
@@ -87,4 +77,37 @@ button:hover {
     background-color: black;
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    display: table-footer-group;
+    border-collapse: collapse;
+    justify-content: center;
+    width: 20%;
+    background-color: darkgray;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
 }
